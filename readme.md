@@ -1,6 +1,6 @@
 # ZURB Template
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+[![devDependencies Status](https://david-dm.org/nileninja/pyramids/dev-status.svg)](https://david-dm.org/nileninja/pyramids?type=dev)
 
 **Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
 
