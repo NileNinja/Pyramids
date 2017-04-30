@@ -2,12 +2,12 @@
   padding-top: 2em;
   
   a {
-    color: #f0f0f0;
+    color: #ccc;
     @include transition;
     
     &:hover,
     &:focus {
-      color: #ccc;
+      color: #f0f0f0;
       @include transition;
     }
     
@@ -18,10 +18,6 @@
         @include transition;
       }
       
-      &:hover {
-        mix-blend-mode: luminosity;
-        @include transition;
-      }
     }
     
     h4 {
@@ -37,5 +33,11 @@
   
   .card {
     background-color: rgba(0,0,0,.5);
+    @include transition;
+    
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+      @include transition;
+    }
   }
 }
