@@ -1,0 +1,41 @@
+.cards-wrapper {
+  padding-top: 2em;
+  
+  a {
+    color: #f0f0f0;
+    @include transition;
+    
+    &:hover,
+    &:focus {
+      color: #ccc;
+      @include transition;
+    }
+    
+    .card-image {
+      @include transition;
+      
+      img {
+        @include transition;
+      }
+      
+      &:hover {
+        mix-blend-mode: luminosity;
+        @include transition;
+      }
+    }
+    
+    h4 {
+      font-size: 1.2em;
+      line-height: 1;
+    }
+    
+    p {
+      color: #666;
+      line-height: 1.2;
+    }
+  }
+  
+  .card {
+    background-color: rgba(0,0,0,.5);
+  }
+}

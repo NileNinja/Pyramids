@@ -46,8 +46,5 @@
       "es2015"
     ]
   },
-  "private": true,
-  "dependencies": {
-    "grade-js": "^1.0.10"
-  }
+  "private": true
 }

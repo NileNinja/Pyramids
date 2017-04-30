@@ -1,0 +1,24 @@
+@import 'components/left-header';
+@import 'components/cards';
+
+// General
+//////////////////////////////////////
+
+body {
+  background-color: #333;
+}
+
+.gredclone {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  position: fixed;
+  will-change: transform;
+  z-index: -1;
+}
+
+div.gradient-wrap {
+  background: none;
+}

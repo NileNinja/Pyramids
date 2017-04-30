@@ -12,11 +12,16 @@
     <!--  Cairo Web Font '400 and 700 font weights' and Arabic Subset is included -->
     <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&amp;subset=arabic" rel="stylesheet">
   </head>
-  <body class="{{ headerClass }}">
-
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
-
+  <body class="{{ headerClass }}-body">
+    
+    <main>
+      <div class="gradient-wrap">
+        <div class="gredclone"></div>
+        {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+        {{> body}}
+      </div>
+    </main>
+    
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>
