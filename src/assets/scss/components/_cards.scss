@@ -1,43 +1,51 @@
 .cards-wrapper {
   padding-top: 2em;
   
-  a {
-    color: #ccc;
-    @include transition;
-    
-    &:hover,
-    &:focus {
-      color: #f0f0f0;
-      @include transition;
-    }
-    
-    .card-image {
-      @include transition;
-      
-      img {
-        @include transition;
-      }
-      
-    }
-    
-    h4 {
-      font-size: 1.2em;
-      line-height: 1;
-    }
-    
-    p {
-      color: #666;
-      line-height: 1.2;
-    }
-  }
   
   .card {
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: rgba(0,0,0,.5);
     @include transition;
     
     &:hover {
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       @include transition;
+    }
+    
+    a {
+      color: #ccc;
+      @include transition;
+
+      &:hover,
+      &:focus {
+        color: #f0f0f0;
+        @include transition;
+
+        img {
+          -webkit-filter: blur(2px) grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: blur(2px) grayscale(100%);
+        }
+      }
+
+      .card-image {
+        @include transition;
+
+        img {
+          @include transition;
+        }
+
+      }
+
+      h4 {
+        font-size: 1.2em;
+        line-height: 1;
+      }
+
+      p {
+        color: #666;
+        line-height: 1.2;
+      }
     }
   }
 }
